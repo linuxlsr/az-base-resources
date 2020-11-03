@@ -22,7 +22,7 @@ module "aks" {
   log_analytics_workspace_sku    = "PerGB2018"
   log_retention_in_days          = 14
   agents_count                   = 1
-  public_ssh_key                 = file("../../files/id_rsa.pub")
+  public_ssh_key                 = file(var.ssh_key)
   tags                           = merge({ Name = "my aks cluster" }, local.common_tags)
   enable_log_analytics_workspace = false
 }

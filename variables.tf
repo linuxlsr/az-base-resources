@@ -71,3 +71,5 @@ variable "tier" {
   description = "service tier"
   default = "GeneralPurpose"
 }
+
+variable "ssh_key" { description = "file for aks module"}
