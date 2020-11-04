@@ -73,3 +73,18 @@ variable "tier" {
 }
 
 variable "ssh_key" { description = "file for aks module"}
+variable "db_server_name" {}
+variable "resource_group_name" {}
+variable "name" {}
+variable "administrator_login" {}
+variable "administrator_login_password" {}
+variable "db_version" {}
+variable "sku_name" {}
+variable "storage_mb" {}
+variable "auto_grow_enabled" {}
+variable "backup_retention_days" {}
+variable "geo_redundant_backup_enabled" {}
+variable "infrastructure_encryption_enabled" {}
+variable "public_network_access_enabled" {}
+variable "ssl_enforcement_enabled" {}
+variable "ssl_minimal_tls_version_enforced" {}
