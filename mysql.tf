@@ -5,7 +5,7 @@ resource "azurerm_mysql_server" "mysql" {
   administrator_login = var.admin_username
   administrator_login_password = var.db_password
   sku_name = var.sku_name
-  storage_mb = var.storage_mb
+//  storage_mb = var.storage_mb
   version = var.db_version
 //  auto_grow_enabled                 = var.auto_grow_enabled
 //  backup_retention_days             = var.backup_retention_days
