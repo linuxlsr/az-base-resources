@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: az-base-resources
+  description: >
+    Base Azure resources, 2 of 3 repos to integrate into Terragrunt.
+  annotations:
+    github.com/project-slug: linuxlsr/az-base-resources
+  tags:
+    - azure
+    - terragrunt
+spec:
+  type: other
+  lifecycle: experimental
+  owner: user:linuxlsr
